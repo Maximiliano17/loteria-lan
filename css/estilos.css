@@ -216,3 +216,57 @@
     align-items: center;
     font-size: 17px;
 }
+
+/*Section 1*/
+
+#section1{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dinero{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+}
+
+.dinero h3{
+    width: 50%;
+    text-align: center;
+}
+
+.logotipo{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151414;
+}
+
+.textual{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textual h3{
+    width: 40%;
+    font-size: 20px;
+}
+
+.textual p{
+    width: 40%;
+    font-size: 20px;
+}
